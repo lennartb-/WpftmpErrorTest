@@ -1,0 +1,11 @@
+[*]
+insert_final_newline = false
+end_of_line=crlf
+
+[*.cs]
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = warning
+
+# Use file scoped namespace
+csharp_style_namespace_declarations = file_scoped
